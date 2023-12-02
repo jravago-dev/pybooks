@@ -1,0 +1,7 @@
+# created by virtualenv automatically
+dev-env/Lib
+__pycache__
+*.pyc
+*.env
+env
+test_db.db
