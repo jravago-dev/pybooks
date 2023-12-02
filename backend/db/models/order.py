@@ -2,6 +2,8 @@ from datetime import datetime
 from db.base_class import Base
 from sqlalchemy import Column, Integer, Text, String, Boolean, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
+from .member import Member
+from .order_detail import OrderDetail
 
 
 class Order(Base):
