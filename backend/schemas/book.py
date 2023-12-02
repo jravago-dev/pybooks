@@ -2,10 +2,16 @@ from typing import Optional
 from pydantic import BaseModel, root_validator, model_validator
 from datetime import datetime
 
+
 class CreateBook(BaseModel):
     title: str
     isbn: str
     author: str
+
+
+class UpdateBook(CreateBook):
+    pass
+
 
 class DisplayBookDetails(BaseModel):
     title: str
